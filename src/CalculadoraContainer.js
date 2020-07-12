@@ -2,6 +2,10 @@ import React from 'react';
 import Visor from './Visor.js';
 import SinaisContainer from './SinaisContainer.js';
 import BotoesContainer from './BotoesContainer.js';
+import { create, all } from 'mathjs'
+
+const config = { };
+const math = create(all, config);
 
 class CalculadoraContainer extends React.Component {
 	constructor() {
@@ -32,7 +36,7 @@ class CalculadoraContainer extends React.Component {
 
 	calcular() {
 		try{
-			let resultado = eval(this.state.valor);
+			let resultado = math.evaluate(this.state.valor);
 			 this.setState({
 				valor: resultado,
 			});
