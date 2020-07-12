@@ -1,0 +1,51 @@
+.calculadoraContainer {
+    width: 311px;
+    border: 6px solid;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e1e1e1;
+    margin-top: 52px;
+}
+
+.visor {
+    height: 80px;
+    margin: 0;
+    text-align: right;
+    border: 3px solid;
+    border-right: 0px;
+    border-left: 0px;   
+}
+.visor h2 {
+    margin: 0;
+    padding: 23px 24px 20px 0px;
+}
+
+.botao {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 4px;
+}
+.botao div {
+    font-size: 53px;
+    background: white;
+    cursor: pointer;
+}
+.botao div:hover {
+    background: #999999;
+}
+.numeros .botao {
+    float: left;
+}
+.fileiraSinais1 {
+    width: 311px;
+}
+.fileiraSinais1 > div{
+    width: 311px;
+    display: inline-flex;
+}
+.fileiraSinais2 {
+    display: flex;
+    height: 312px;
+    width: 73px;
+}
