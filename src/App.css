@@ -8,6 +8,7 @@
 }
 
 .visor {
+    overflow: overlay;
     height: 80px;
     margin: 0;
     text-align: right;
