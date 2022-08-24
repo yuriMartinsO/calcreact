@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Available Scripts
+## Calculadora em React
 
-In the project directory, you can run:
+Calculadora feita em React para estudo pessoal.
+Como executar:
 
 ### `yarn start`
 
